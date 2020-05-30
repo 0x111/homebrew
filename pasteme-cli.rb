@@ -11,6 +11,7 @@ class PastemeCli < Formula
   elsif OS.linux?
     url "https://github.com/0x111/pasteme-cli/releases/download/#{release}/pasteme-cli-linux-amd64"
     sha256 "ed3bbb6758b624d8d025229e6593f3c76562d059dacfbaf61befd1fa10dd249d"
+  end
   
   def install
     bin.install Dir.glob("pasteme-cli*").first => "pasteme-cli"
