@@ -1,9 +1,9 @@
 class PastemeCli < Formula
-  release "v0.0.2"
+  git_tag "v0.0.2"
   
   desc "CLI client for the Paste.me service"
   homepage "https://paste.me"
-  v release
+  v git_tag
   depends_on :arch => :x86_64
   
   if OS.mac?
