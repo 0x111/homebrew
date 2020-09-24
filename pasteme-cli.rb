@@ -1,5 +1,5 @@
 class PastemeCli < Formula
-  tag = "v0.0.2"
+  tag = "v0.1"
   
   desc "CLI client for the Paste.me service"
   homepage "https://paste.me"
@@ -8,10 +8,10 @@ class PastemeCli < Formula
   
   if OS.mac?
     url "https://github.com/0x111/pasteme-cli/releases/download/#{version}/pasteme-cli-darwin-amd64"
-    sha256 "0b8ee6adfa833b4a54168e49400ff71553c53119f00710913de5af0370a16d68"
+    sha256 "02545301bcff79daa41a3ca5cd3ca46cf0fe3bdb9adb82383c71d49268c1dc2c"
   elsif OS.linux?
     url "https://github.com/0x111/pasteme-cli/releases/download/#{version}/pasteme-cli-linux-amd64"
-    sha256 "ed3bbb6758b624d8d025229e6593f3c76562d059dacfbaf61befd1fa10dd249d"
+    sha256 "8563866c31de32bcc70014d46095f9f937dad8c4f750441f86ae99dfb47313db"
   end
   
   def install
