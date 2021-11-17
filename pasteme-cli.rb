@@ -18,8 +18,6 @@ class PastemeCli < Formula
     bin.install Dir.glob("pasteme-cli*").first => "pasteme-cli"
   end
 
-  bottle :unneeded
-
   test do
     system "false"
   end
